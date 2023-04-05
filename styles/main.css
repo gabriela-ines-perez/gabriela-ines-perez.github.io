@@ -60,6 +60,14 @@ h1 {
     object-fit: cover;
   }
 
+  .blog-box-text{
+    font-family: monospace;
+    color: #741132;
+    font-size: 13px;
+    margin: 20px;
+
+  }
+
   .statement-text {
     text-align: center;
     font-family: monospace;
