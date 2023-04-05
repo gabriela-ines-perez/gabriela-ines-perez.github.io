@@ -27,11 +27,7 @@ h1 {
     text-align: center;
   }
 
-  h2 {
-    color: white;
-    font-family: monospace;
-    font-size: 20px;    
-  }
+
 
   .hero-frog-image {
     max-width: 110%;
@@ -68,6 +64,8 @@ h1 {
     margin: 20px;
 
   }
+
+  
 
   div.absolute {
     position: absolute;
@@ -137,3 +135,14 @@ h1 {
     padding: 7px 4px 7px 4px;
     
   }
+
+  .blogpost {
+    background-color: #D2E9E7;
+    color: #741132;
+    font-family: monospace;
+    padding: 60px 40px 60px 40px;
+    margin: 40px 40px 100px 40px;
+    border-radius: 10px;
+  }
+
+  
