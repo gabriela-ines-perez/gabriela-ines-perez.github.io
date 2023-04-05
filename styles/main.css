@@ -38,17 +38,18 @@ h1 {
     height: auto;
     margin-left: -20px;
     margin-right: -20px;
+    margin-bottom: 40px;
     
   }
 
   .blog-box {
     padding: 0px 0px 40px 0px;
-    margin: 20px;
+    margin: 10px;
     background-color:#D2E9E7;
     text-align: center;
     border-radius: 10px;
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
   
   }
 
@@ -66,6 +67,15 @@ h1 {
     font-size: 13px;
     margin: 20px;
 
+  }
+
+  div.absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
   }
 
   .statement-text {
@@ -104,4 +114,26 @@ h1 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin: 40px 10px 40px 10px;
+    flex-wrap: wrap;
+  }
+
+  .core-tag{
+    background-color: #F7C17E;
+    color: #741132;
+    font-family: monospace;
+    font-weight: lighter;
+    text-align: center;
+    padding: 7px 4px 7px 4px;
+    
+  }
+
+  .tech-tag{
+    background-color:#189D8F;
+    color: #D2E9E7;
+    font-family: monospace;
+    font-weight: lighter;
+    text-align: center;
+    padding: 7px 4px 7px 4px;
+    
   }
