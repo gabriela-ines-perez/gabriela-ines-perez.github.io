@@ -151,9 +151,8 @@ h1 {
     font-family: monospace;
     text-align: center;
     padding: 60px 40px 60px 40px;
-    margin: 40px 40px 100px 40px;
+    margin: 40px;
     border-radius: 10px;
-    position: flex;
     align-items: center;
    
   }
@@ -180,11 +179,10 @@ h1 {
 }
 
 .button-bar{
-  position: flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  padding: 40px 0px;
 }
 
 .button{
@@ -210,4 +208,28 @@ h1 {
     background-color: #F7807C;
     color: #031D27;
 
+  }
+
+  .image-resize-small{
+    width: 500px;
+    height: auto;
+  }
+
+  .footer-logo{
+
+    width: 30px;
+    height: auto;
+  }
+
+  .header-logo{
+
+    width: 40px;
+    height: auto;
+    position: absolute;
+  }
+
+  #red-logo{
+    height: 40px;
+    width: auto;
+    margin-top: 40px;
   }
