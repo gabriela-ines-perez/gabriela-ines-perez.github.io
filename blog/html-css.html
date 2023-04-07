@@ -25,49 +25,61 @@
     <p>Also, they stack on mobile using flex-wrap.  </p>
     <img src="../images/flexbox-mobile.png" alt="screenshot of flexbox use on blogs on mobile" class="image-resize-small">
 <p>We love to see it</p>
-<p>But I just breezed passed it, having now heard about flexbox and getting sucked right in to the craze I thought it would solve all my position problems but I didn't bother about thinking of the idea of display vs position. </p>
+<p>I breezed passed it, having now heard about flexbox and getting sucked right into the craze I thought it would solve all my position problems. What a fool I was. I didn't realise that position is it's own property. </p>
+<br>
 <h3>What is position in html/css?</h3>
-<p>Now I have this issue with this blog. </p>
-<p>I like the idea to have a tag above each blog post in the home page that identitifies it as a 'tech' or 'core' blog. I am sure once we start learning how to use conditional logic and apply these, these tags can be useful for filtering out content. </p>
-<p>But this is how it currently looks:</p>
+<p>I have this issue with my home page. </p>
+<p>I like the idea of having an overlapping tag above each blog post in the home page that identitifies it as a 'tech' or 'core' blog. I am sure once we start learning how to use conditional logic, these tags can be useful for filtering out content. </p>
+<p>But for now I just want it to look good but, alas, this is how it currently looks:</p>
 <img src="../images/initial-blog-box.png" alt="screenshot of flexbox use on blogs on desktop" class="image-resize-small">
 <p>This is what is happening behind the scenes:</p>
-<img src="../images/html-initial.png" alt="screenshot of flexbox use on blogs on desktop" class="image-resize-small">
 <p>This is the html</p>
-<img src="../images/css-initial.png" alt="screenshot of flexbox use on blogs on desktop" class="image-resize-small">
+<img src="../images/html-initial.png" alt="screenshot of flexbox use on blogs on desktop" class="image-resize-small">
 <p>This is the css</p>
-<p>Seems like I need the child object (the tag) to attach to the top right hand corner of the parent (the blog box container). What are my options for position? A quick google search tells me there are five main types of positions in css- *Relative*, *Fixed*, *Absolute*, *Sticky* and *Static*. We'll just focus on three since static is the default and sticky because that uses scroll and that is not going to help my case..</p>
-<p>First let's make the tag look nice, we can change the display in inline (now we know that display/position are different) and rounded those corners a bit. </p>
+<img src="../images/css-initial.png" alt="screenshot of flexbox use on blogs on desktop" class="image-resize-small">
+<p>Seems like I need the child object (tag) to attach to the top right hand corner of the parent (blog-box) and overlap. What are my options for position? A quick google search tells me there are five main types of positions in CSS- <strong>Relative</strong>, <strong>Absolute</strong>, <strong>Sticky</strong>, <strong>Fixed</strong> and <strong>Static</strong>. We'll just focus on three since static is the default and sticky uses scroll and that is not going to help my tag problem.</p>
+<p>First let's make the tag look nice, we can change the display to inline (now we know that display/position are different properties) and round those corners out a bit. </p>
 <img src="../images/css-tag-refresh-all.png" alt="screenshot of flexbox use on blogs on desktop" class="image-resize-small">
 <p>and here are the results:</p>
 <img src="../images/tag-refresh.png" alt="screenshot of flexbox use on blogs on desktop" class="image-resize-small">
 <p>Nice.</p>
-
+<br>
 <h3>Relative</h3>
 <p>The relative position is named as such because the position is relative to its normal self. You can offset a position by adjusting the  the top, bottom, left, and right properties.</p>
 <p>Let's try it out!</p>
 <img src="../images/css-relative-position.png" alt="screenshot of flexbox use on blogs on desktop" class="image-resize-small">
 <p>Seems to do the trick!</p>
 <img src="../images/relative-results.png" alt="screenshot of flexbox use on blogs on desktop" class="image-resize-small">
-<p>But now let's say I want to change the width of the parent object (blog-box) from 400px to 800px. </p>
+<p>But what if I want to change the width of the parent object (blog-box) from 400px to 800px. </p>
 <img src="../images/css-blog-blox-400px.png" alt="screenshot of flexbox use on blogs on desktop" class="image-resize-small">
 <img src="../images/css-blog-blox-800px.png" alt="screenshot of flexbox use on blogs on desktop" class="image-resize-small">
 <p>Here's what it looks like.</p>
 <img src="../images/blog-box-800px.png" alt="screenshot of flexbox use on blogs on desktop" class="image-resize-small">
 
-<p>That’s not good. Seems like the relative position might need to be adjusted every time which is not ideal. Time to try something else.  </p>
+<p>That’s not ideal. Seems like the relative position might need to be adjusted every time. Time to try something else.  </p>
+<br>
 <h3>Fixed</h3>
-<p></p>
+<p>This position is in relative to the viewport. Let's try it out. </p>
+<img src="../images/css-fixed.png" alt="screenshot of flexbox use on blogs on desktop" class="image-resize-small">
+<p>What did that do?</p>
+<img src="../images/fixed-scroll-1.png" alt="screenshot of flexbox use on blogs on desktop" class="image-resize-small">
+<p>Let's have a quick scroll</p>
+<img src="../images/fixed-scroll-2.png" alt="screenshot of flexbox use on blogs on desktop" class="image-resize-small">
+<p>It's still there.</p>
+<img src="../images/fixed-scroll-3.png" alt="screenshot of flexbox use on blogs on desktop" class="image-resize-small">
+<p>Oh dear.</p>
+<p>Okay this won't do.</p>
+<br>
 <h3>Absolute</h3>
-<p></p>
-<h3>To recap</h3>
-
-<p>These are the things we've learnt together:</p>
-<ul>
-  <li>learnt the difference bwtween display and position properties</li>
-  <li>looked at the differences between fixed, relative and abolute positions</li>
-  <li>found a solution to our problem using abolute positions</li>
-</ul>
+<p>An absolutely positioned element is relative to the nearest positioned parent. If none are positioned- it uses the body. So let's position the parent ‘blog-box' and set it to a relative position.</p>
+<img src="../images/css-relative-parent.png" alt="screenshot of flexbox use on blogs on desktop" class="image-resize-small">
+<p>Great now let's change the tags position to absolute:</p>
+<img src="../images/css-absolute.png" alt="screenshot of flexbox use on blogs on desktop" class="image-resize-small">
+<p>Let's see how it looks:</p>
+<img src="../images/absolute-result.png" alt="screenshot of flexbox use on blogs on desktop" class="image-resize-small">
+<p>Let's see what happens when I change size of the parent 'blog-box'.</p>
+<img src="../images/absolute-800px.png" alt="screenshot of flexbox use on blogs on desktop" class="image-resize-small">
+<p>Perfect.</p>
 
 <img src="../images/gad-space-logo-red.svg"  id="red-logo" alt="red gad space logo">
   
