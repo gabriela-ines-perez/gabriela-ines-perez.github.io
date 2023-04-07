@@ -18,6 +18,15 @@ body {
   background-color: #C33137;
   color: white;
   font-size: 16px;
+  margin: 0px;
+  }
+
+
+  .header-logo{
+    width: 40px;
+    height: auto;
+    position: absolute;
+    left: 5px;
   }
 
   a {
@@ -36,15 +45,17 @@ h1 {
     text-align: center;
   }
 
-
+  h3{
+    padding: 30px;
+  }
 
   .hero-frog-image {
-    max-width: 110%;
+    max-width: 100%;
     height: auto;
-    margin-left: -20px;
-    margin-right: -20px;
-    margin-bottom: 40px;
-    
+    display: flex;
+    align-items: center;
+    position:static;
+   
   }
 
   .blog-box {
@@ -55,7 +66,6 @@ h1 {
     border-radius: 10px;
     width: 400px;
     height: 400px;
-  
   }
 
   .blog-box-img {
@@ -74,16 +84,6 @@ h1 {
 
   }
 
-  
-
-  div.absolute {
-    position: absolute;
-    top: 80px;
-    right: 0;
-    width: 200px;
-    height: 100px;
-    border: 3px solid #73AD21;
-  }
 
   .statement-text {
     text-align: center;
@@ -123,26 +123,29 @@ h1 {
     align-items: center;
     margin: 40px 10px 40px 10px;
     flex-wrap: wrap;
+    position: relative;
+  }
+
+  .tag {
+    font-family: monospace;
+    font-weight: lighter;
+    text-align: center;
+    padding: 7px 10px 7px 10px;
+    border-radius: 10px;
+    display: inline;
+    position: relative;   
+    left:150px;
+    bottom: 190px;
   }
 
   .core-tag{
     background-color: #F7C17E;
     color: #741132;
-    font-family: monospace;
-    font-weight: lighter;
-    text-align: center;
-    padding: 7px 4px 7px 4px;
-    
   }
 
   .tech-tag{
     background-color:#189D8F;
     color: #D2E9E7;
-    font-family: monospace;
-    font-weight: lighter;
-    text-align: center;
-    padding: 7px 4px 7px 4px;
-    
   }
 
   .blogpost {
@@ -150,11 +153,10 @@ h1 {
     color: #031D27;
     font-family: monospace;
     text-align: center;
-    padding: 60px 40px 60px 40px;
-    margin: 40px;
+    padding: 60px 100px 60px 100px;
+    margin: 60px;
     border-radius: 10px;
     align-items: center;
-   
   }
 
   #blog-title {
@@ -207,7 +209,6 @@ h1 {
   .button-peach{
     background-color: #F7807C;
     color: #031D27;
-
   }
 
   .image-resize-small{
@@ -216,17 +217,11 @@ h1 {
   }
 
   .footer-logo{
-
     width: 30px;
     height: auto;
   }
 
-  .header-logo{
 
-    width: 40px;
-    height: auto;
-    position: absolute;
-  }
 
   #red-logo{
     height: 40px;
