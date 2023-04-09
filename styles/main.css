@@ -73,6 +73,7 @@ h1 {
     object-fit: cover;
   }
 
+
   .blog-box-text{
     font-family: monospace;
     color: #741132;
@@ -208,7 +209,7 @@ h1 {
   }
 
   .image-resize-small{
-    width: 500px;
+    width: 70%;
     height: auto;
   }
 
