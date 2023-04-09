@@ -92,13 +92,20 @@ h1 {
 
   .about-gaby {
     text-align: center;
-    padding: 40px;
-    margin: 40px 100px 40px 100px;
+    padding: 20px;
+    margin: 40px;
     color: #F7C17E;
     background-color:#189D8F ;
     border-radius: 10px;
     font-family: monospace;
 
+  }
+
+  @media screen and (min-width: 480px) {
+    #about-gaby-padding{
+      padding: 40px;
+      margin: 40px 100px 40px 100px;
+    }
   }
 
   .about-gaby-img{
@@ -145,16 +152,23 @@ h1 {
     color: #D2E9E7;
   }
 
+
   .blogpost {
     background-color: #D2E9E7;
     color: #031D27;
     font-family: monospace;
     text-align: center;
-    padding: 60px 100px 60px 100px;
-    margin: 60px;
+    padding: 20px;
     border-radius: 10px;
     align-items: center;
   }
+
+  @media screen and (min-width: 480px) {
+  #blogpost-padding {
+    padding: 60px 100px 60px 100px;
+    margin: 60px;
+  }
+}
 
   #blog-title {
     color:#031D27;
