@@ -225,9 +225,29 @@ li {
   color: #EFFAFA;
   }
 
+  .button-green:hover{
+    background-color: #031D27;
+  }
+
   .button-peach{
     background-color: #F7807C;
     color: #031D27;
+  }
+
+  .button-peach:hover{
+    background-color: #EFFAFA;
+   
+  }
+
+  .button-peach-out{
+    background-color: #EFFAFA;
+    color: #741132;
+    border-style: solid;
+    border-color: #F7807C;
+  }
+
+  .button-peach-out:hover{
+    background-color: #E69C94;
   }
 
   .image-resize-small{
