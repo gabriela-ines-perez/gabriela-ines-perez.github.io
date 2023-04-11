@@ -45,7 +45,13 @@ h1 {
     text-align: center;
   }
 
+/*
+li {
+  background-color: #189D8F;
+  color: #F7C17E;
 
+}
+*/
 
   .hero-frog-image {
     max-width: 100%;
@@ -163,7 +169,7 @@ h1 {
     align-items: center;
   }
 
-  @media screen and (min-width: 480px) {
+  @media screen and (min-width: 680px) {
   #blogpost-padding {
     padding: 60px 100px 60px 100px;
     margin: 60px;
