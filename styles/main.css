@@ -45,6 +45,7 @@ h1 {
     text-align: center;
   }
 
+ 
 /*
 li {
   background-color: #189D8F;
@@ -162,11 +163,12 @@ li {
   .blogpost {
     background-color: #D2E9E7;
     color: #031D27;
-    font-family: monospace;
-    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    text-align: left;
     padding: 20px;
     border-radius: 10px;
-    align-items: center;
+    /* align-items: center; */
   }
 
   @media screen and (min-width: 680px) {
@@ -178,13 +180,14 @@ li {
 
   #blog-title {
     color:#031D27;
-    text-align: center;
+    text-align: left;
   }
   .cover-photo {
     width: 200px;
     height: 200px;
     border-radius: 100%;
     object-fit: cover;
+    justify-content: center;
     
   }
   
