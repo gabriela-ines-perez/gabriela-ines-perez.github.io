@@ -171,6 +171,12 @@ li {
     /* align-items: center; */
   }
 
+  #blog-text{
+    color: #031D27;
+    font-family: 'Oxygen', sans-serif;
+    width: 75%; 
+  }
+
   @media screen and (min-width: 680px) {
   #blogpost-padding {
     padding: 60px 100px 60px 100px;
@@ -198,6 +204,7 @@ li {
   justify-content: space-evenly;
   align-items: center;
   border-bottom: 1px solid #F7807C;
+  width: 75%;
 
 }
 

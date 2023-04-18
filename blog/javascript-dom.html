@@ -17,12 +17,13 @@
     <link href="../styles/main.css"  rel="stylesheet" type="text/css">
   </head>
   
-  <body>
-    <header>
-      <a href="../index.html"><img src="../images/gad-space-logo-white.svg" class="header-logo"> </a>
-      <h1>gad space</h1> 
-    </header>
-    <div class="blogpost" id="blogpost-padding">
+<body>
+  <header>
+    <a href="../index.html"><img src="../images/gad-space-logo-white.svg" class="header-logo"> </a>
+    <h1>gad space</h1> 
+  </header>
+
+<div class="blogpost" id="blogpost-padding">
   <div class="blog-cover">
       <img class="cover-photo" src="https://images.unsplash.com/photo-1524538813-1d2e4e975e1c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"> 
     <h2 id="blog-title"> Javascript and The Dom</h2>
@@ -31,46 +32,45 @@
   </div>
 
   <!-- add blog here -->
-
-<h3>JS/HTML and CSS</h3>
-  <p>If your website is the human body, HTML would be the skeleton. It keeps everything in place and creates. Structure for your website. It also connects different parts of your body to each other. CSS would be powered by your DNA- it codes the colour of your skin, eyes and hair. Your brain and numero network would be javascript- bringing the body to life allowing it to jump, run, solve a math problem and make a sandwich. </p>
-  <img src="https://images.unsplash.com/photo-1532153470116-e8c2088b8ac1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" class="image-resize-small">
-<h3>Control Flows and Loops </h3>
-  <p>JavaScript is read from top to bottom line by line. Much like you would read this blog! This can be changed using ‘control flow’. Our conditional statements (e.g. if x happens then y else z) and use of ‘loops’ help us control the flow of the code. </p>
-  <p>This is much like deciding what to wear in the morning. If the weather is cold you will wear a jumper, if it’s raining you will wear a raincoat. If not, you will wear neither of those. You can check each item of clothing to make sure it’s clean and if the colours match each other. And you will only wear clothing that is clean and matches. </p>
-<h3>Get yer data- Arrays and Objects</h3>
-  <p>Arrays and objects are different ways of storing data in javascript. They are known as ‘reference types’ - functions are also reference types but we’ll get to that later. </p>
-  <p><strong>Arrays</strong> are a type of variable that can hold more than one value as a list. These could be different types of values, strings, numbers, boolean etc. You can declare an array as if you are declaring a variable (using const or let) and you use the square brackets for an array [] instead of parenthesis (). Variables can be objects and arrays are a special type of object.</p>
- <p>Here is an example:</p>
- <img src="../images/arrays.png" class="image-resize-small">
- <p>Another way of visualising this is using the index it is stored under.</p>
- <p>Index:</p>
- <p>[0] Tony</p>
- <p>[1] Rosa </p>
- <p>[3] Fred</p>
- <p>Programmers always start counting at 0!</p>
- <p></p>
-  <p><strong>Objects</strong> are a continuation of multiple related variables. All packed up as an object. Much like an object - like a coat- has different properties (buttons, thread, lining, fabric, cuffs, brand etc) so can an object in javascript. It’s a nifty way of grouping data. It makes referencing the object easier as well. </p>
-  <p>Here is an example of a ‘coat’ object:</p>
-  <img src="../images/object.png" class="image-resize-small">
-  <p>The data is stored as ‘key-value pairs’ with properties on the left and their values on the right. </p>
-  <p>Here is how we reference using the dot notation to read/ change the value of a property. We can also use bracket notation using the property name as a string.  Looks like dot notation is shorter and looks prettier. </p>
-  <img src="../images/dot notation.png" class="image-resize-small">
-  <h3>The DOM</h3>
-  <p>This is the most important object in javascript.</p>
-  <p>Interacting and manipulating the DOM is how we access objects within our HTML and add some magic to them. The DOM is the JS representation of our HTML, the entire HTML is represented as a document object and all over objects (div, spans etc) fall under that object. You can grab an object like a border and use HTML to change the colour with a mouse click. It can be even more powerful than that and we can manipulate the DOM to bring our site to life by making it interactive. 
-  </p> 
+  <div id="blog-text">
+    <h3>JS/HTML and CSS</h3>
+    <p>If your website is the human body, HTML would be the skeleton. It keeps everything in place and creates. Structure for your website. It also connects different parts of your body to each other. CSS would be powered by your DNA- it codes the colour of your skin, eyes and hair. Your brain and numero network would be javascript- bringing the body to life allowing it to jump, run, solve a math problem and make a sandwich. </p>
+    <img src="https://images.unsplash.com/photo-1532153470116-e8c2088b8ac1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" class="image-resize-small">
+    <h3>Control Flows and Loops </h3>
+    <p>JavaScript is read from top to bottom line by line. Much like you would read this blog! This can be changed using ‘control flow’. Our conditional statements (e.g. if x happens then y else z) and use of ‘loops’ help us control the flow of the code. </p>
+    <p>This is much like deciding what to wear in the morning. If the weather is cold you will wear a jumper, if it’s raining you will wear a raincoat. If not, you will wear neither of those. You can check each item of clothing to make sure it’s clean and if the colours match each other. And you will only wear clothing that is clean and matches. </p>
+    <h3>Get yer data- Arrays and Objects</h3>
+    <p>Arrays and objects are different ways of storing data in javascript. They are known as ‘reference types’ - functions are also reference types but we’ll get to that later. </p>
+    <p><strong>Arrays</strong> are a type of variable that can hold more than one value as a list. These could be different types of values, strings, numbers, boolean etc. You can declare an array as if you are declaring a variable (using const or let) and you use the square brackets for an array [] instead of parenthesis (). Variables can be objects and arrays are a special type of object.</p>
+    <p>Here is an example:</p>
+    <img src="../images/arrays.png" class="image-resize-small">
+    <p>Another way of visualising this is using the index it is stored under.</p>
+    <p>Index:</p>
+    <p>[0] Tony</p>
+    <p>[1] Rosa </p>
+    <p>[3] Fred</p>
+    <p>Programmers always start counting at 0!</p>
+    <p><strong>Objects</strong> are a continuation of multiple related variables. All packed up as an object. Much like an object - like a coat- has different properties (buttons, thread, lining, fabric, cuffs, brand etc) so can an object in javascript. It’s a nifty way of grouping data. It makes referencing the object easier as well. </p>
+    <p>Here is an example of a ‘coat’ object:</p>
+    <img src="../images/object.png" class="image-resize-small">
+    <p>The data is stored as ‘key-value pairs’ with properties on the left and their values on the right. </p>
+    <p>Here is how we reference using the dot notation to read/ change the value of a property. We can also use bracket notation using the property name as a string.  Looks like dot notation is shorter and looks prettier. </p>
+    <img src="../images/dot notation.png" class="image-resize-small">
+    <h3>The DOM</h3>
+    <p>This is the most important object in javascript.</p>
+    <p>Interacting and manipulating the DOM is how we access objects within our HTML and add some magic to them. The DOM is the JS representation of our HTML, the entire HTML is represented as a document object and all over objects (div, spans etc) fall under that object. You can grab an object like a border and use HTML to change the colour with a mouse click. It can be even more powerful than that and we can manipulate the DOM to bring our site to life by making it interactive. 
+    </p> 
 
     Interacting and Manipulating the DOM is how we access objects within our HTML and add some magic to them. </p>
- <h3>What are the functions of functions? </h3>
+    <h3>What are the functions of functions? </h3>
     <p>Earlier we mentioned the reference type of function. Simply put, is a way of writing code that you want to use more than once. Here is the structure of a function:</p> 
     <img src="../images/function.png" class="image-resize-small">
     <p> It’s declared using the function keyword and given a name, parameters (values) and holds the logic of the function. We can then call this function whenever we need it.</p>
     <p>We can add inputs to replace parameters in the argument when calling to do interesting things.</p>
-   <p>Functions are fundamental to writing in javascript. There are many different types of functions. They can perform a task or calculate a value. </p>
+    <p>Functions are fundamental to writing in javascript. There are many different types of functions. They can perform a task or calculate a value. </p>
 
-<img src="../images/gad-space-logo-red.svg"  id="red-logo" alt="red gad space logo">
-  
+    <img src="../images/gad-space-logo-red.svg"  id="red-logo" alt="red gad space logo">
+  </div>
 </div>
 
 <div class="button-bar">
