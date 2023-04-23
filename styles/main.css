@@ -26,7 +26,7 @@ body {
     width: 40px;
     height: auto;
     position: absolute;
-    left: 5px;
+    left: 20px;
   }
 
   a {
@@ -108,27 +108,21 @@ li {
 
   }
 
-  @media screen and (min-width: 480px) {
-    #about-gaby-padding{
-      padding: 40px;
-      margin: 40px 100px 40px 100px;
-    }
-  }
-
+  
   .about-gaby-img{
-  height: 80px;
-  width: 80px;
-  border-radius: 100%;
-  object-fit: cover;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    object-fit: cover;
   }
-
+  
   footer {
     text-align: center;
     font-size: 10px;
     font-family: monospace;
     color: #741132;
   }
-
+  
   .blogs-container {
     display: flex;
     justify-content: space-evenly;
@@ -136,7 +130,7 @@ li {
     margin: 40px 10px 40px 10px;
     flex-wrap: wrap;
   }
-
+  
   .tag {
     font-family: monospace;
     font-weight: lighter;
@@ -148,132 +142,138 @@ li {
     right: 15px;
     top: 0px;
   }
-
+  
   .core-tag{
     background-color: #F7C17E;
     color: #741132;
   }
-
+  
   .tech-tag{
     background-color:#189D8F;
     color: #D2E9E7;
   }
-
-
+  
+  
   .blogpost {
     background-color: #D2E9E7;
     color: #031D27;
     font-family: 'Oxygen', sans-serif;
-    font-size: 16px;
     text-align: left;
     padding: 20px;
     border-radius: 10px;
     /* align-items: center; */
   }
-
+  
   #blog-text{
     color: #031D27;
     font-family: 'Oxygen', sans-serif;
     width: 75%; 
   }
-
-  @media screen and (min-width: 680px) {
-  #blogpost-padding {
-    padding: 60px 100px 60px 100px;
-    margin: 60px;
-  }
-}
-
+  
+  
   #blog-title {
     color:#031D27;
     text-align: left;
   }
   .cover-photo {
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
+    width: 100%;
+    height: 500px;
+    /* border-radius: 100%; */
     object-fit: cover;
-    justify-content: center;
     
   }
   
-
-.blog-cover{
-  position: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  border-bottom: 1px solid #F7807C;
-  width: 75%;
-
-}
-
-.button-bar{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: 20px;
-}
-
-.button{
-  border: none;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-family: monospace;
-  font-weight: 500;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 20px;
-}
-
-  .button-green{
-  background-color: #56AC8B;
-  color: #EFFAFA;
+  
+  .blog-cover{
+    border-bottom: 1px solid #F7807C;
+    width: 75%;
+    background-color: #D2E9E7;
+    /* position: sticky; */
+    top: 0px;
+    
   }
-
+  
+  .button-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .button{
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: monospace;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  .button-green{
+    background-color: #56AC8B;
+    color: #EFFAFA;
+  }
+  
   .button-green:hover{
     background-color: #031D27;
   }
-
+  
   .button-peach{
     background-color: #F7807C;
     color: #031D27;
   }
-
+  
   .button-peach:hover{
     background-color: #EFFAFA;
-   
+    
   }
-
+  
   .button-peach-out{
     background-color: #EFFAFA;
     color: #741132;
     border-style: solid;
     border-color: #F7807C;
   }
-
+  
   .button-peach-out:hover{
     background-color: #E69C94;
   }
-
+  
   .image-resize-small{
     width: 70%;
     height: auto;
   }
-
+  
   .footer-logo{
     width: 30px;
     height: auto;
   }
-
-
-
+  
+  
+  
   #red-logo{
     height: 40px;
     width: auto;
     margin-top: 40px;
+  }
+  
+  
+  @media screen and (min-width: 680px) {
+    #blogpost-padding {
+      padding: 60px 100px 60px 100px;
+      margin: 0px 60px 60px 60px;;
+    }
+  }
+  
+  @media screen and (min-width: 480px) {
+    #about-gaby-padding{
+      padding: 40px;
+      margin: 40px 100px 40px 100px;
+    }
   }
