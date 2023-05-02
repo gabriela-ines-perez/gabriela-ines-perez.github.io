@@ -183,7 +183,11 @@ li {
     
   }
   
-  
+  .subheading-blog{
+    color: #189D8F;
+    
+    font-size: 25px;
+  }
   .blog-cover{
     border-bottom: 1px solid #F7807C;
     width: 75%;
